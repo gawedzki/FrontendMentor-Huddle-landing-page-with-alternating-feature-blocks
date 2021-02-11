@@ -1,0 +1,62 @@
+@media only screen and (min-width: 740px) {
+  header {
+    height: 1025px;
+    padding-top: 48px;
+    background-image: url(../images/bg-hero-desktop.svg);
+  }
+  .hd {
+    max-width: 700px;
+  }
+  /* .hd__sctn {
+  } */
+  .hd__logo {
+    width: 210px;
+  }
+  .hd__link {
+    width: 200px;
+    line-height: 48px;
+    border-radius: 24px;
+    font-size: 14px;
+  }
+  .hd__sctn > h1 {
+    font-size: 41px;
+    line-height: 60px;
+  }
+  .hd__sctn > p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 35px;
+  }
+  .hd__sctn > .button {
+    width: 280px;
+    line-height: 56px;
+    border-radius: 28px;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  header {
+    height: 721px;
+  }
+  .hd {
+    max-width: 1290px;
+    padding-top: 110px;
+  }
+  .hd__sctn {
+    width: 40%;
+    padding-top: 100px;
+    float: left;
+  }
+  .hd__sctn > h1,
+  p {
+    text-align: left;
+  }
+  .hd__img {
+    width: 54%;
+    margin-top: 0;
+    float: right;
+  }
+  .hd__sctn > .button {
+    float: left;
+  }
+}

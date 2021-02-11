@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+  min-width: 343px;
+}
+body {
+  font-size: 1.6rem;
+}
+h1,
+h2,
+h3 {
+  font-family: "Popoins", sans-serif;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+header,
+main {
+  text-align: center;
+}
+header {
+  height: 718px;
+  padding-top: 24px;
+  background-color: hsl(193, 100%, 96%);
+  background-image: url(../images/bg-hero-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+.hd {
+  max-width: 343px;
+  margin: 0 auto;
+  position: relative;
+}
+.hd__logo {
+  width: 105px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hd__link {
+  width: 96px;
+  line-height: 24px;
+  border-radius: 12px;
+  box-shadow: 0px 1px 5px hsl(0, 0%, 0%, 15%);
+  background-color: white;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.hd__sctn {
+  width: 88%;
+  padding-top: 104px;
+  margin: 0 auto;
+  clear: both;
+}
+.hd__sctn > h1 {
+  margin-bottom: 25px;
+  font-size: 25px;
+  line-height: 36px;
+}
+.hd__sctn > p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.hd__img {
+  width: 88%;
+  margin-top: 55px;
+}
+.button {
+  width: 240px;
+  line-height: 40px;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px hsl(322, 100%, 66%, 25%);
+  background-color: hsl(322, 100%, 66%);
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
